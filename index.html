@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Year With Charlotte ❤️</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background: #fff7f8;
+      color: #633b48;
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 70px 20px;
+      background: linear-gradient(135deg, #f8dce4, #fff1f3);
+    }
+
+    .heart {
+      font-size: 45px;
+      animation: beat 1.4s infinite;
+    }
+
+    h1 {
+      font-size: clamp(2.2rem, 7vw, 4rem);
+      color: #a33e61;
+      margin: 15px 0;
+    }
+
+    h2 {
+      color: #a33e61;
+      margin-bottom: 18px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 13px 25px;
+      border: none;
+      border-radius: 30px;
+      background: #b94f70;
+      color: white;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    section {
+      max-width: 850px;
+      margin: auto;
+      padding: 55px 22px;
+    }
+
+    .memory, .letter {
+      background: white;
+      padding: 25px;
+      margin: 18px 0;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px #eacbd3;
+    }
+
+    .memory {
+      border-left: 5px solid #d77d98;
+      text-align: left;
+    }
+
+    .photo-placeholder {
+      background: #f8e2e8;
+      border: 2px dashed #d77d98;
+      border-radius: 15px;
+      padding: 35px 15px;
+      margin: 15px 0;
+      color: #a33e61;
+    }
+
+    #secret {
+      display: none;
+      margin-top: 25px;
+      font-size: 1.2rem;
+      color: #a33e61;
+    }
+
+    footer {
+      padding: 30px;
+      background: #f8dce4;
+    }
+
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.15); }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="heart">❤️</div>
+    <p>To my favorite person</p>
+    <h1>Happy One Year, Charlotte!</h1>
+    <p class="subtitle">
+      One year of us, and a lifetime of love to go.
+    </p>
+    <a href="#letter" class="button">Open your love letter 💌</a>
+  </header>
+
+  <section id="letter">
+    <h2>A letter from my heart</h2>
+    <div class="letter">
+      <p>My beautiful Charlotte,</p>
+      <br>
+      <p>
+        Happy one-year anniversary, my love.
+        These past twelve months have given me memories
+        I will always treasure. Thank you for being part
+        of my life, for the moments we've shared, and
+        for the love we've continued to build together.
+      </p>
+      <br>
+      <p>
+        You mean so much to me, and I hope this little
+        surprise reminds you how special you are.
+        Here's to our story, our growth, and all the
+        beautiful moments still waiting for us.
+      </p>
+      <br>
+      <p>With all my love,</p>
+      <p><strong>Your girl ❤️</strong></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our little love story ✨</h2>
+
+    <div class="memory">
+      <h3>💕 The beginning</h3>
+      <p>
+        The beginning of a story that became so special
+        to me. Replace this with the memory of how
+        you two first met or started dating.
+      </p>
+    </div>
+
+    <div class="memory">
+      <h3>🌷 A favorite memory</h3>
+      <p>
+        Add a moment together that always makes you smile.
+      </p>
+    </div>
+
+    <div class="memory">
+      <h3>💗 One year of us</h3>
+      <p>
+        Twelve months of memories, learning, laughter,
+        and love. And this is only the beginning.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Our favorite moments 📸</h2>
+    <p>
+      This is where we'll add your beautiful pictures
+      together.
+    </p>
+
+    <div class="photo-placeholder">
+      📷 Our first favorite picture goes here
+    </div>
+
+    <div class="photo-placeholder">
+      📷 Another special memory goes here
+    </div>
+  </section>
+
+  <section>
+    <h2>A little secret for you 💌</h2>
+    <p>There's something I want you to remember...</p>
+
+    <button class="button" onclick="revealSecret()">
+      Tap to reveal ❤️
+    </button>
+
+    <div id="secret">
+      No matter how many times I get to choose,
+      I would still want to write this beautiful
+      little story with you, Charlotte. I love you! ❤️
+    </div>
+  </section>
+
+  <footer>
+    Made with all my love, just for Charlotte ❤️
+    <br>
+    October 25, 2026
+  </footer>
+
+  <script>
+    function revealSecret() {
+      document.getElementById("secret").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
